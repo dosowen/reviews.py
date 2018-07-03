@@ -8,4 +8,7 @@ for d in a:
 	if 'good' in d:
 		good.append(d)
 
-print('It has',len(good),'message')
+print('It has',len(good),'message about good')
+
+bad = [d for d in a if 'bad' in d]
+print('It has',len(bad),'message about bad')
